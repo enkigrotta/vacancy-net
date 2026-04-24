@@ -135,3 +135,20 @@ All hyperparameters live in `config.py` as a single `Config` dataclass. Key para
 Phase 1 trains on CIFAR-10 and logs. The restructuring protocol (⟳) fires automatically when remainder pressure exceeds threshold. No manual intervention required.
 
 Planned: Phase 2 — comparison experiments, pressure curves, K_eff dynamics visualization.
+
+--------
+
+Theoretical foundation
+The architecture implements the structural invariant Δ(Δ₁∅Δ₂) described in:
+→ https://github.com/enkigrotta/vacancy-polymorphism
+Philosophy
+Your data is yours. Your model runs on your machine.
+No cloud. No subscription. No surveillance.
+∅-NET is a step toward AI that lives with the user —
+not in someone else's data centre.
+Looking for a collaborator
+ML engineer who understands VQ-VAE, continual learning,
+and on-device deployment — and cares where user data lives.
+No funding. Real problem. Working code.
+Smoke test: 4/4. K_eff grows from 32 to 89 autonomously.
+Open an Issue or contact via GitHub.
